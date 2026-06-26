@@ -1,2 +1,0 @@
-# VLSI-Intership-SMEClabs
-hgyglg
