@@ -1,4 +1,4 @@
-During the internship, I wrote the hardware description language code and simulated the following circuits using ModelSim SE PLUS 5.7f:
+During the internship at SMEClabs, I wrote the hardware description language code and simulated the following circuits using ModelSim SE PLUS 5.7f:
 
 1) Logic Gates: AND, OR, NOT, NAND, NOR, XOR gates.
 
