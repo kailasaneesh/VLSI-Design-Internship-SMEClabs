@@ -1,0 +1,5 @@
+A Half Adder is a basic combinational logic circuit that performs the arithmetic addition of two single-bit binary inputs: (a) and (b). The core rule is that it mathematically adds these two bits together to produce a 2-bit result split across two outputs: a Sum bit and a Carry bit. Unlike a Full Adder, it only handles two inputs and does not account for an incoming carry bit from a previous addition stage.
+
+In this simulation, both inputs are driven high (a=1, b=1), which mathematically equals 1 + 1 = 2. In binary language, the decimal number 2 is written as 10. Internally, the Sum gate uses an XOR operation (1 XOR 1), which evaluates to 0. Simultaneously, the Carry logic uses an AND operation (1 AND 1), which evaluates to 1. This gives us the correct binary result of 10.
+
+The waveform graph visually verifies this arithmetic calculation: the two input tracks (a and b) sit high up on the timeline. Consequently, the Sum track stays completely flat at the zero reference floor (0), while the Carry track steps upward into a high state (1). This clear graphical output confirms that the circuit performs basic binary addition flawlessly.
