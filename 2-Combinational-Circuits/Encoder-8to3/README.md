@@ -1,5 +1,1 @@
-An 8-to-3 encoder does the exact opposite of a decoder: it compresses multiple individual lines into a short 3-bit binary code (A2, A1, A0). The core rule is that the circuit detects which single input line is active-high (1) and instantly translates that line's position into its corresponding binary number at the output pins.
-
-In this simulation, the input line Y7 is set to 1 while all other inputs (Y1 through Y6) are left at 0. Internally, the circuit uses OR gates to process the outputs. Because Y7 is included in the wiring equations for all three output channels (A0, A1, and A2), its active high state forces every single OR gate to evaluate to 1. This generates the output code 111, which is the binary representation of the number 7.
-
-The waveform graph visually verifies this compression logic: the input track Y7 is sitting high, and the output tracks A2, A1, and A0 all simultaneously step upward into a high state (111). This clear graphical output confirms that the encoder accurately identifies the active source line and encodes it perfectly.
+Encoder: Compresses data, monitors multiple input lines, detects which single pin is high, converts that active position into a tight binary code output.
