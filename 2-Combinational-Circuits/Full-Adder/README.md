@@ -1,8 +1,8 @@
 # Full Adder using VHDL
 
-This project implements a **Full Adder** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of a **Full Adder**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-A **Full Adder** is a combinational logic circuit that adds **three single-bit binary inputs** (`A`, `B`, and `Cin`) and produces **two outputs**: the **Sum** (`Sum`) and the **Carry Out** (`Cout`). It is commonly used as the basic building block for designing multi-bit binary adders and arithmetic circuits.
+A **Full Adder** adds three single-bit binary inputs (`A`, `B`, and `Cin`) and produces **Sum** and **Carry Out** outputs. It is commonly used to build multi-bit binary adders.
 
 ## Truth Table
 
@@ -17,19 +17,13 @@ A **Full Adder** is a combinational logic circuit that adds **three single-bit b
 | 1 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Designing a Full Adder using VHDL
-- Implementing arithmetic logic with XOR, AND, and OR gates
-- Understanding the concepts of Sum and Carry generation
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Designing combinational logic circuits
+- Understanding binary addition with carry
+- Simulating and verifying the design using ModelSim
