@@ -1,7 +1,25 @@
-During the internship at SMEClabs.I wrote the hardware description language code and simulated the following circuits using ModelSim SE PLUS 5.7f:
+# VHDL Digital Circuits
 
-1) Logic Gates: AND, OR, NOT, NAND, NOR, XOR gates.
+This repository contains the VHDL circuits and ModelSim simulations developed during my internship at SMEClabs, covering fundamental digital logic, combinational circuits, and sequential circuits.
 
-2) Combinational Circuits: Half Adder, Full Adder, Multiplexer, Decoder, and Encoder.
+## Repository Structure
 
-3) Sequential Circuits: D Flip-Flop, JK Flip-Flop, and a 4-Bit Synchronous Up Counter.
+### 1. Logic Gates
+- AND Gate
+- OR Gate
+- NOT Gate
+- NAND Gate
+- NOR Gate
+- XOR Gate
+
+### 2. Combinational Circuits
+- Half Adder
+- Full Adder
+- Multiplexer
+- Decoder
+- Encoder
+
+### 3. Sequential Circuits
+- D Flip-Flop
+- JK Flip-Flop
+- 4-Bit Synchronous Up Counter
