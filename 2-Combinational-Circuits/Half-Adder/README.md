@@ -1,8 +1,8 @@
 # Half Adder using VHDL
 
-This project implements a **Half Adder** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of a **Half Adder**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-A **Half Adder** is a combinational logic circuit that adds **two single-bit binary inputs** (`A` and `B`) and produces **two outputs**: the **Sum** (`Sum`) and the **Carry** (`Carry`). It is one of the fundamental building blocks used in digital arithmetic circuits.
+A **Half Adder** is a combinational logic circuit that adds two single-bit binary inputs and produces **Sum** and **Carry** outputs. It is one of the basic building blocks used in digital arithmetic circuits.
 
 ## Truth Table
 
@@ -13,19 +13,13 @@ A **Half Adder** is a combinational logic circuit that adds **two single-bit bin
 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 0 | 1 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Designing a Half Adder using VHDL
-- Implementing arithmetic logic with XOR and AND gates
-- Understanding Sum and Carry generation
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Designing combinational logic circuits
+- Understanding binary addition
+- Simulating and verifying the design using ModelSim
