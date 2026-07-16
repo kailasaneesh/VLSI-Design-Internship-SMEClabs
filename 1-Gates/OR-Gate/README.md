@@ -1,8 +1,8 @@
 # OR Gate using VHDL
 
-This project implements an **OR Gate** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of an **OR Gate**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-An **OR Gate** is a basic digital logic gate that produces a HIGH (`1`) output when **at least one input is HIGH**. The output is LOW only when both inputs are LOW.
+An **OR Gate** is a basic digital logic gate that produces a HIGH (`1`) output when at least one input is HIGH. The output is LOW only when both inputs are LOW.
 
 ## Truth Table
 
@@ -13,18 +13,13 @@ An **OR Gate** is a basic digital logic gate that produces a HIGH (`1`) output w
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Implementing an OR gate in VHDL
-- Understanding logical OR operation
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Writing VHDL code for basic logic circuits
+- Understanding the operation of an OR gate
+- Simulating and verifying the design using ModelSim
