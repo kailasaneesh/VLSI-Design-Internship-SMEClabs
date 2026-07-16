@@ -1,8 +1,8 @@
 # 3:8 Decoder using VHDL
 
-This project implements a **3:8 Decoder** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of a **3:8 Decoder**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-A **3:8 Decoder** is a combinational logic circuit that converts a **3-bit binary input** into **one of eight output lines**. For every unique combination of the three input bits (`X`, `Y`, and `Z`), only one output (`D0`–`D7`) becomes HIGH while all the remaining outputs stay LOW.
+A **3:8 Decoder** converts a 3-bit binary input into one of eight output lines. For each input combination, only one output becomes HIGH.
 
 ## Truth Table
 
@@ -17,19 +17,13 @@ A **3:8 Decoder** is a combinational logic circuit that converts a **3-bit binar
 | 1 | 1 | 0 | D6 |
 | 1 | 1 | 1 | D7 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Designing combinational logic circuits in VHDL
-- Implementing a 3:8 decoder using logic gates
-- Understanding binary decoding and one-hot outputs
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Designing combinational logic circuits
+- Understanding binary decoding
+- Simulating and verifying the design using ModelSim
