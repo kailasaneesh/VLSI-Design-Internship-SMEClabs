@@ -1,8 +1,8 @@
 # 8:3 Encoder using VHDL
 
-This project implements an **8:3 Encoder** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of an **8:3 Encoder**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-An **8:3 Encoder** is a combinational logic circuit that converts **one active input out of eight** into a **3-bit binary output**. The output represents the binary equivalent of the active input line. For correct operation, only one input should be active at a time.
+An **8:3 Encoder** converts one active input out of eight into a 3-bit binary output representing the active input.
 
 ## Truth Table
 
@@ -17,19 +17,13 @@ An **8:3 Encoder** is a combinational logic circuit that converts **one active i
 | Y6 | 1 | 1 | 0 |
 | Y7 | 1 | 1 | 1 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Designing combinational logic circuits in VHDL
-- Implementing an 8:3 encoder using logic expressions
-- Understanding binary encoding of input signals
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Designing combinational logic circuits
+- Understanding binary encoding
+- Simulating and verifying the design using ModelSim
