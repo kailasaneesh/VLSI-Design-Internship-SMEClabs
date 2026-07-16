@@ -1,12 +1,8 @@
-# 4-bit Binary Counter using VHDL
+# 4-Bit Binary Counter using VHDL
 
-This repository contains the VHDL implementation of a **4-bit Binary Counter**. The design was written in **VHDL** and functionally verified using **ModelSim**.
+This repository contains the VHDL implementation of a **4-Bit Binary Counter**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-A **4-bit Binary Counter** is a sequential logic circuit that increments its output on each rising edge of the clock. It counts from `0000` to `1111` before returning to `0000` and includes a reset input.
-
-## Counting Sequence
-
-`0000 → 0001 → 0010 → ... → 1111 → 0000`
+A **4-Bit Binary Counter** is a sequential logic circuit that increments its binary output by one on every rising edge of the clock. It counts through the binary sequence **0000 → 0001 → 0010 → ... → 1111** before automatically returning to **0000** and repeating the cycle. The design also includes a reset input that clears the counter and sets the output back to zero.
 
 ## Software Used
 
@@ -16,5 +12,6 @@ A **4-bit Binary Counter** is a sequential logic circuit that increments its out
 ## Key Concepts
 
 - Designing sequential logic circuits
-- Understanding binary counting and reset operation
-- Simulating and verifying the design using ModelSim
+- Understanding clock-driven binary counting
+- Using clock and reset signals
+- Simulating and verifying VHDL designs using ModelSim
