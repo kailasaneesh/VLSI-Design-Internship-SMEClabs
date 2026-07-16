@@ -1,8 +1,8 @@
 # NOT Gate using VHDL
 
-This project implements a **NOT Gate** using **VHDL** and was simulated using **ModelSim**.
+This repository contains the VHDL implementation of a **NOT Gate**. The design was written in **VHDL** and functionally verified using **ModelSim**.
 
-A **NOT Gate** is a basic digital logic gate that **inverts** the input signal. It produces the opposite logic level at the output.
+A **NOT Gate** is a basic digital logic gate that inverts the input signal. It produces the opposite logic level at the output.
 
 ## Truth Table
 
@@ -11,18 +11,13 @@ A **NOT Gate** is a basic digital logic gate that **inverts** the input signal. 
 | 0 | 1 |
 | 1 | 0 |
 
-## Tools Used
+## Software Used
 
 - VHDL
 - ModelSim
-- IEEE `std_logic_1164`
 
-## What I Learned
+## Key Concepts
 
-- Implementing a NOT gate in VHDL
+- Writing VHDL code for basic logic circuits
 - Understanding logical inversion
-- Compiling and simulating VHDL designs in ModelSim
-
----
-
-**Author:** Kailas Aneesh
+- Simulating and verifying the design using ModelSim
